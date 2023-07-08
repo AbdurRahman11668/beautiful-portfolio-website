@@ -19,16 +19,16 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
-.section-title{
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
-.section-des{
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
+.section-des {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
 
 /* Nav related styles */
@@ -60,68 +60,151 @@ nav a {
 }
 
 /* Header Styles */
-.header{
-    background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
-.banner{
-    padding: 30px 30px 0 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.banner {
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner-content{
-    max-width: 550px;
+.banner-content {
+  max-width: 550px;
 }
-.banner .profile-pic{
-    width: 500px;
+.banner .profile-pic {
+  width: 500px;
 }
-.banner-greeting{
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0;
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
 }
-.banner-title{
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
-.banner-des{
-    margin: 20px 0 30px 0;
+.banner-des {
+  margin: 20px 0 30px 0;
 }
-.btn-secondary{
-    border-radius: 5px;
-    background: white;
-    border: 2px solid #fd6e0a;
-    color: #fd6e0a;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 20px;
-    padding: 15px 35px;
+.btn-secondary {
+  border-radius: 5px;
+  background: white;
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+  padding: 15px 35px;
 }
 
 /* Main Section Styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
 }
 
 /* About Section Styles */
-.about{
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0;
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
-.about-info-container{
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+
+/* What i do section */
+#what-i-do-des {
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-des {
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-column{
+
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
     display: flex;
-    justify-content: space-around;
+    gap: 50;
 }
-.about-info{
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-item-institute, .resume-item-des{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
     text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer Style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea{
+    display: flex;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 100%;
 }
